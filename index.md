@@ -1,3 +1,3 @@
 ## Polyvariant
 
-Comming soon
+Coming soon
