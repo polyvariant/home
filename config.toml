@@ -1,0 +1,58 @@
+baseurl = "http://polyvariant.org"
+title = "p[±]lyvariant"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+# disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Polyvariant"
+  info = "Making Scala a better language, one library at a time"
+  description = "Making Scala a better language, one library at a time."
+  keywords = "scala,fp,functional-programming"
+  avatarurl = "images/avatar.png"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2021
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+  customCSS = ["css/custom.css"]
+
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/polyvariant/"
+
+
+# Menu links
+[[menu.main]]
+  name = "Projects"
+  weight = 1
+  url  = "https://github.com/orgs/polyvariant/repositories?q=sort%3Astars"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about"
