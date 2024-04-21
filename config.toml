@@ -49,10 +49,16 @@ style = "github-dark"
 
 # Menu links
 [[menu.main]]
-  name = "Projects"
+  name = "About"
   weight = 1
+  url = "about"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  target = "_blank"
   url  = "https://github.com/orgs/polyvariant/repositories?q=sort%3Astars"
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about"
+  name = "Learn Scala"
+  weight = 3
+  target = "_blank"
+  url  = "https://learn-scala.polyvariant.org/"
