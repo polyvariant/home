@@ -54,9 +54,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --minify \
-            # --baseURL "${{ steps.pages.outputs.base_url }}/" # this is commented out to keep using polyvariant.org instead home.polyvariant.org
+          hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
